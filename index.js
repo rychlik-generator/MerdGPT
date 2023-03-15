@@ -45,4 +45,4 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(token);
-app.listen(8999, () => {});
+app.listen(8999, () => console.log("Bot started"));
